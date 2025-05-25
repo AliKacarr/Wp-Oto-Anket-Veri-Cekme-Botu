@@ -1,0 +1,24 @@
+2025/05/25-22:31:31.689 46d8 Reusing MANIFEST C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-yazilim\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/25-22:31:31.690 46d8 Recovering log #646
+2025/05/25-22:31:31.730 46d8 Reusing old log C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-yazilim\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000646.log 
+2025/05/25-22:31:31.730 46d8 Delete type=2 #639
+2025/05/25-22:31:33.219 569c Level-0 table #656: started
+2025/05/25-22:31:33.233 569c Level-0 table #656: 427956 bytes OK
+2025/05/25-22:31:33.234 569c Delete type=0 #646
+2025/05/25-22:31:33.235 569c Manual compaction at level-0 from '\x00F\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00G\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/25-22:31:36.102 46d8 Compacting 1@1 + 6@2 files
+2025/05/25-22:31:36.195 46d8 Generated table #657@1: 51084 keys, 2208405 bytes
+2025/05/25-22:31:36.258 46d8 Generated table #658@1: 19056 keys, 2176458 bytes
+2025/05/25-22:31:36.296 46d8 Generated table #659@1: 2939 keys, 2156949 bytes
+2025/05/25-22:31:36.377 46d8 Generated table #660@1: 21855 keys, 2249701 bytes
+2025/05/25-22:31:36.463 46d8 Generated table #661@1: 38311 keys, 2223050 bytes
+2025/05/25-22:31:36.508 46d8 Generated table #662@1: 48330 keys, 1017006 bytes
+2025/05/25-22:31:36.508 46d8 Compacted 1@1 + 6@2 files => 12031569 bytes
+2025/05/25-22:31:36.509 46d8 compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/05/25-22:31:36.510 46d8 Delete type=2 #648
+2025/05/25-22:31:36.510 46d8 Delete type=2 #649
+2025/05/25-22:31:36.510 46d8 Delete type=2 #650
+2025/05/25-22:31:36.510 46d8 Delete type=2 #651
+2025/05/25-22:31:36.510 46d8 Delete type=2 #652
+2025/05/25-22:31:36.510 46d8 Delete type=2 #653
+2025/05/25-22:31:36.510 46d8 Delete type=2 #656

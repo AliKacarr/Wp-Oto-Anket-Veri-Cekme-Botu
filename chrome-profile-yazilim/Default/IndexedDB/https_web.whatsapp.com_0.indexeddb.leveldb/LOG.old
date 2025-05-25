@@ -1,0 +1,44 @@
+2025/05/25-22:28:39.664 5230 Reusing MANIFEST C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-yazilim\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/25-22:28:39.674 5230 Recovering log #629
+2025/05/25-22:28:39.835 5230 Reusing old log C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-yazilim\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000629.log 
+2025/05/25-22:28:41.277 5230 Level-0 table #639: started
+2025/05/25-22:28:41.313 5230 Level-0 table #639: 955058 bytes OK
+2025/05/25-22:28:41.316 5230 Delete type=0 #629
+2025/05/25-22:28:41.317 5230 Manual compaction at level-0 from '\x00E\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00F\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/25-22:28:43.849 5318 Compacting 1@1 + 6@2 files
+2025/05/25-22:28:44.031 5318 Generated table #640@1: 49770 keys, 2206368 bytes
+2025/05/25-22:28:44.151 5318 Generated table #641@1: 18390 keys, 2177275 bytes
+2025/05/25-22:28:44.223 5318 Generated table #642@1: 2951 keys, 2157668 bytes
+2025/05/25-22:28:44.404 5318 Generated table #643@1: 21730 keys, 2235737 bytes
+2025/05/25-22:28:44.682 5318 Generated table #644@1: 42264 keys, 2228815 bytes
+2025/05/25-22:28:44.835 5318 Generated table #645@1: 39359 keys, 834970 bytes
+2025/05/25-22:28:44.835 5318 Compacted 1@1 + 6@2 files => 11840833 bytes
+2025/05/25-22:28:44.836 5318 compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/05/25-22:28:44.837 5318 Delete type=2 #631
+2025/05/25-22:28:44.837 5318 Delete type=2 #632
+2025/05/25-22:28:44.837 5318 Delete type=2 #633
+2025/05/25-22:28:44.838 5318 Delete type=2 #634
+2025/05/25-22:28:44.838 5318 Delete type=2 #635
+2025/05/25-22:28:44.838 5318 Delete type=2 #636
+2025/05/25-22:28:44.838 5318 Delete type=2 #639
+2025/05/25-22:28:54.750 18ec Level-0 table #647: started
+2025/05/25-22:28:54.791 18ec Level-0 table #647: 1049979 bytes OK
+2025/05/25-22:28:54.792 18ec Delete type=0 #638
+2025/05/25-22:28:54.792 18ec Delete type=2 #639
+2025/05/25-22:28:54.870 18ec Compacting 1@1 + 6@2 files
+2025/05/25-22:28:55.056 18ec Generated table #648@1: 50751 keys, 2208576 bytes
+2025/05/25-22:28:55.142 18ec Generated table #649@1: 18916 keys, 2176021 bytes
+2025/05/25-22:28:55.179 18ec Generated table #650@1: 2944 keys, 2157538 bytes
+2025/05/25-22:28:55.271 18ec Generated table #651@1: 21833 keys, 2242752 bytes
+2025/05/25-22:28:55.417 18ec Generated table #652@1: 40150 keys, 2224889 bytes
+2025/05/25-22:28:55.472 18ec Generated table #653@1: 41722 keys, 886354 bytes
+2025/05/25-22:28:55.472 18ec Compacted 1@1 + 6@2 files => 11896130 bytes
+2025/05/25-22:28:55.472 18ec compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/05/25-22:28:55.473 18ec Delete type=2 #639
+2025/05/25-22:28:55.473 18ec Delete type=2 #640
+2025/05/25-22:28:55.473 18ec Delete type=2 #641
+2025/05/25-22:28:55.473 18ec Delete type=2 #642
+2025/05/25-22:28:55.473 18ec Delete type=2 #643
+2025/05/25-22:28:55.473 18ec Delete type=2 #644
+2025/05/25-22:28:55.473 18ec Delete type=2 #645
+2025/05/25-22:28:55.474 18ec Delete type=2 #647

@@ -1,0 +1,13 @@
+2025/05/25-22:26:54.525 338c Reusing MANIFEST C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-cati-ozel-ders(carsamba)\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/25-22:26:54.525 338c Recovering log #528
+2025/05/25-22:26:54.611 338c Reusing old log C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-cati-ozel-ders(carsamba)\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000528.log 
+2025/05/25-22:26:56.031 338c Level-0 table #542: started
+2025/05/25-22:26:56.053 338c Level-0 table #542: 859577 bytes OK
+2025/05/25-22:26:56.054 338c Delete type=0 #528
+2025/05/25-22:26:56.054 338c Manual compaction at level-0 from '\x00L\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00M\x00\x00\x00' @ 0 : 0; will stop at '\x00L\x00\x00\x05' @ 1984766 : 1
+2025/05/25-22:26:56.055 338c Compacting 1@0 + 0@1 files
+2025/05/25-22:26:56.071 338c Generated table #543@0: 24605 keys, 504144 bytes
+2025/05/25-22:26:56.071 338c Compacted 1@0 + 0@1 files => 504144 bytes
+2025/05/25-22:26:56.072 338c compacted to: files[ 0 1 10 0 0 0 0 ]
+2025/05/25-22:26:56.072 338c Delete type=2 #542
+2025/05/25-22:26:56.073 338c Manual compaction at level-0 from '\x00L\x00\x00\x05' @ 1984766 : 1 .. '\x00M\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,89 @@
+2025/05/25-22:30:44.186 56c8 Reusing MANIFEST C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-uhuvvet-esliginde-mutalaa\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/25-22:30:44.188 56c8 Recovering log #1141
+2025/05/25-22:30:44.359 56c8 Reusing old log C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-uhuvvet-esliginde-mutalaa\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001141.log 
+2025/05/25-22:30:44.360 56c8 Delete type=2 #1113
+2025/05/25-22:30:44.360 56c8 Delete type=2 #1114
+2025/05/25-22:30:45.852 3f3c Level-0 table #1159: started
+2025/05/25-22:30:45.882 3f3c Level-0 table #1159: 1016591 bytes OK
+2025/05/25-22:30:45.883 3f3c Delete type=0 #1141
+2025/05/25-22:30:45.885 3f3c Manual compaction at level-0 from '\x00\x84\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x85\x00\x00\x00' @ 0 : 0; will stop at '\x00\x84\x00\x00\x05' @ 4356870 : 1
+2025/05/25-22:30:45.885 3f3c Compacting 1@0 + 0@1 files
+2025/05/25-22:30:45.969 3f3c Generated table #1160@0: 31027 keys, 551814 bytes
+2025/05/25-22:30:45.974 3f3c Generated table #1161@0: 3228 keys, 70606 bytes
+2025/05/25-22:30:45.974 3f3c Compacted 1@0 + 0@1 files => 622420 bytes
+2025/05/25-22:30:45.975 3f3c compacted to: files[ 0 2 12 0 0 0 0 ]
+2025/05/25-22:30:45.976 3f3c Delete type=2 #1159
+2025/05/25-22:30:45.977 3f3c Manual compaction at level-0 from '\x00\x84\x00\x00\x05' @ 4356870 : 1 .. '\x00\x85\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/25-22:30:48.004 3f3c Compacting 1@1 + 10@2 files
+2025/05/25-22:30:48.186 3f3c Generated table #1162@1: 50720 keys, 2209084 bytes
+2025/05/25-22:30:48.306 3f3c Generated table #1163@1: 22939 keys, 2181499 bytes
+2025/05/25-22:30:48.388 3f3c Generated table #1164@1: 2649 keys, 2159735 bytes
+2025/05/25-22:30:48.458 3f3c Generated table #1165@1: 3026 keys, 2159813 bytes
+2025/05/25-22:30:48.520 3f3c Generated table #1166@1: 2925 keys, 2158195 bytes
+2025/05/25-22:30:48.605 3f3c Generated table #1167@1: 15639 keys, 2181589 bytes
+2025/05/25-22:30:48.711 3f3c Generated table #1168@1: 25975 keys, 2276768 bytes
+2025/05/25-22:30:48.870 3f3c Generated table #1169@1: 50646 keys, 2250048 bytes
+2025/05/25-22:30:49.050 3f3c Generated table #1170@1: 18497 keys, 2236917 bytes
+2025/05/25-22:30:49.210 3f3c Generated table #1171@1: 77726 keys, 2221576 bytes
+2025/05/25-22:30:49.235 3f3c Generated table #1172@1: 16972 keys, 378878 bytes
+2025/05/25-22:30:49.236 3f3c Compacted 1@1 + 10@2 files => 22414102 bytes
+2025/05/25-22:30:49.237 3f3c compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/05/25-22:30:49.238 3f3c Delete type=2 #1145
+2025/05/25-22:30:49.238 3f3c Delete type=2 #1146
+2025/05/25-22:30:49.238 3f3c Delete type=2 #1147
+2025/05/25-22:30:49.238 3f3c Delete type=2 #1148
+2025/05/25-22:30:49.239 3f3c Delete type=2 #1149
+2025/05/25-22:30:49.239 3f3c Delete type=2 #1150
+2025/05/25-22:30:49.239 3f3c Delete type=2 #1151
+2025/05/25-22:30:49.239 3f3c Delete type=2 #1152
+2025/05/25-22:30:49.239 3f3c Delete type=2 #1153
+2025/05/25-22:30:49.239 3f3c Delete type=2 #1154
+2025/05/25-22:30:49.239 3f3c Delete type=2 #1160
+2025/05/25-22:30:55.111 3f3c Compacting 1@1 + 2@2 files
+2025/05/25-22:30:55.182 3f3c Generated table #1173@1: 24863 keys, 561219 bytes
+2025/05/25-22:30:55.183 3f3c Compacted 1@1 + 2@2 files => 561219 bytes
+2025/05/25-22:30:55.207 3f3c compacted to: files[ 0 0 12 0 0 0 0 ]
+2025/05/25-22:30:55.208 3f3c Delete type=2 #1155
+2025/05/25-22:30:55.208 3f3c Delete type=2 #1156
+2025/05/25-22:30:55.208 3f3c Delete type=2 #1161
+2025/05/25-22:31:03.826 56c8 Level-0 table #1175: started
+2025/05/25-22:31:03.852 56c8 Level-0 table #1175: 1120361 bytes OK
+2025/05/25-22:31:03.854 56c8 Delete type=0 #1158
+2025/05/25-22:31:04.860 53c4 Compacting 1@0 + 0@1 files
+2025/05/25-22:31:04.907 53c4 Generated table #1176@0: 23408 keys, 558744 bytes
+2025/05/25-22:31:04.911 53c4 Generated table #1177@0: 2211 keys, 46002 bytes
+2025/05/25-22:31:04.911 53c4 Compacted 1@0 + 0@1 files => 604746 bytes
+2025/05/25-22:31:04.912 53c4 compacted to: files[ 0 2 12 0 0 0 0 ]
+2025/05/25-22:31:04.913 53c4 Delete type=2 #1175
+2025/05/25-22:31:05.915 53c4 Compacting 1@1 + 10@2 files
+2025/05/25-22:31:06.010 53c4 Generated table #1178@1: 51320 keys, 2209352 bytes
+2025/05/25-22:31:06.075 53c4 Generated table #1179@1: 23218 keys, 2179299 bytes
+2025/05/25-22:31:06.105 53c4 Generated table #1180@1: 2641 keys, 2160290 bytes
+2025/05/25-22:31:06.139 53c4 Generated table #1181@1: 3036 keys, 2158682 bytes
+2025/05/25-22:31:06.170 53c4 Generated table #1182@1: 2908 keys, 2156119 bytes
+2025/05/25-22:31:06.226 53c4 Generated table #1183@1: 15506 keys, 2181153 bytes
+2025/05/25-22:31:06.321 53c4 Generated table #1184@1: 25928 keys, 2276717 bytes
+2025/05/25-22:31:06.436 53c4 Generated table #1185@1: 50758 keys, 2250036 bytes
+2025/05/25-22:31:06.525 53c4 Generated table #1186@1: 18509 keys, 2238737 bytes
+2025/05/25-22:31:06.662 53c4 Generated table #1187@1: 75389 keys, 2218111 bytes
+2025/05/25-22:31:06.672 53c4 Generated table #1188@1: 6445 keys, 144872 bytes
+2025/05/25-22:31:06.672 53c4 Compacted 1@1 + 10@2 files => 22173368 bytes
+2025/05/25-22:31:06.673 53c4 compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/05/25-22:31:06.674 53c4 Delete type=2 #1162
+2025/05/25-22:31:06.674 53c4 Delete type=2 #1163
+2025/05/25-22:31:06.674 53c4 Delete type=2 #1164
+2025/05/25-22:31:06.674 53c4 Delete type=2 #1165
+2025/05/25-22:31:06.674 53c4 Delete type=2 #1166
+2025/05/25-22:31:06.674 53c4 Delete type=2 #1167
+2025/05/25-22:31:06.674 53c4 Delete type=2 #1168
+2025/05/25-22:31:06.674 53c4 Delete type=2 #1169
+2025/05/25-22:31:06.674 53c4 Delete type=2 #1170
+2025/05/25-22:31:06.675 53c4 Delete type=2 #1171
+2025/05/25-22:31:06.675 53c4 Delete type=2 #1176
+2025/05/25-22:31:06.984 3f3c Compacting 1@1 + 2@2 files
+2025/05/25-22:31:07.045 3f3c Generated table #1189@1: 44041 keys, 984507 bytes
+2025/05/25-22:31:07.045 3f3c Compacted 1@1 + 2@2 files => 984507 bytes
+2025/05/25-22:31:07.046 3f3c compacted to: files[ 0 0 12 0 0 0 0 ]
+2025/05/25-22:31:07.046 3f3c Delete type=2 #1172
+2025/05/25-22:31:07.047 3f3c Delete type=2 #1173
+2025/05/25-22:31:07.047 3f3c Delete type=2 #1177

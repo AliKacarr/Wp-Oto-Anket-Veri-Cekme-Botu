@@ -1,0 +1,31 @@
+{
+  "name": "reading-tracker",
+  "version": "1.0.0",
+  "description": "Book reading tracker application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "backup": "node backup.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.15.0",
+    "multer": "^1.4.5-lts.2",
+    "node-schedule": "^2.1.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "request-ip": "^3.3.0",
+    "selenium-webdriver": "^4.33.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
