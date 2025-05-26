@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Bu Python scripti, WhatsApp Web üzerinde belirli bir gruba otomatik mesaj gönderebilmek için Selenium kullanır.
 Sohbet adı ve göndermek istediğiniz mesaj komut satırı argümanları olarak alınır.
@@ -12,6 +13,8 @@ import time
 import sys
 import os
 import sys
+from selenium.webdriver.common.keys import Keys
+import pyperclip
 
 def main():
     if len(sys.argv) < 3:
@@ -96,7 +99,8 @@ def main():
             EC.element_to_be_clickable((By.XPATH, message_box_xpath))
         )
         message_box.click()
-        message_box.send_keys(message_text)
+        pyperclip.copy(message_text)
+        message_box.send_keys(Keys.CONTROL, 'v')
     
         # Gönder butonunun aktif olmasını bekle (gonder-buton.html'den)
         send_button_xpath = '//button[@aria-label="Gönder" and @data-tab="11"]'

@@ -76,7 +76,6 @@ async function hatirlatmaMesajiOlustur() {
         .sort({ date: -1 });
 
       let consecutiveMissedDays = 0;
-      let foundRead = false;
 
       // Dünden geriye doğru kontrol et
       for (const status of readingStatuses) {
@@ -85,7 +84,6 @@ async function hatirlatmaMesajiOlustur() {
             consecutiveMissedDays++;
             herkesOkumus = false;
           } else if (status.status === 'okudum') {
-            foundRead = true;
             break;
           }
         }
@@ -189,17 +187,17 @@ async function runJobsSequentially() {
     }
 
     // 2. Hatırlatma mesajını oluştur ve gönder
-    console.log('Hatırlatma mesajı hazırlanıyor...');
-    const hatirlatmaMesaji = await hatirlatmaMesajiOlustur();
-    if (hatirlatmaMesaji) {
-      console.log('Hatırlatma mesajı:', hatirlatmaMesaji);
-      for (const grup of gruplar) {
-        if (grup.hatirlatma) {
-          try {
-            await hatirlatmaMesajiGonder(grup.isim, hatirlatmaMesaji);
-          } catch (error) {
-            console.error(`${grup.isim} grubu için hatırlatma mesajı gönderilirken hata oluştu:`, error.message);
-          }
+    let hatirlatmaMesaji;
+    for (const grup of gruplar) {
+      if (grup.hatirlatma) {
+        if (!hatirlatmaMesaji) {
+          hatirlatmaMesaji = await hatirlatmaMesajiOlustur();
+          console.log('Hatırlatma mesajı hazırlanıyor...');
+        }
+        try {
+          await hatirlatmaMesajiGonder(grup.isim, hatirlatmaMesaji);
+        } catch (error) {
+          console.error(`${grup.isim} grubu için hatırlatma mesajı gönderilirken hata oluştu:`, error.message);
         }
       }
     }
@@ -217,21 +215,24 @@ async function runJobsSequentially() {
     }
 
     // 4. Günün sözü mesajını gönder
-    console.log('Günün sözü gönderiliyor...');
-    const gununSozu = await gununSozuGetir();
-    if (gununSozu) {
-      for (const grup of gruplar) {
-        if (grup.gununSozuMesaji) {
-          try {
-            await hatirlatmaMesajiGonder(grup.isim, gununSozu);
-            console.log(`${grup.isim} grubuna günün sözü gönderildi.`);
-          } catch (error) {
-            console.error(`${grup.isim} grubuna günün sözü gönderilemedi:`, error.message);
+    let gununSozu;
+    for (const grup of gruplar) {
+      if (grup.gununSozuMesaji) {
+        if (!gununSozu) {
+          gununSozu = await gununSozuGetir();
+          if (!gununSozu) {
+            console.log('Günün sözü bulunamadı.');
+            break;
           }
+          console.log('Günün sözü gönderiliyor...');
+        }
+        try {
+          await hatirlatmaMesajiGonder(grup.isim, gununSozu);
+          console.log(`${grup.isim} grubuna günün sözü gönderildi.`);
+        } catch (error) {
+          console.error(`${grup.isim} grubuna günün sözü gönderilemedi:`, error.message);
         }
       }
-    } else {
-      console.log('Günün sözü bulunamadı.');
     }
 
     console.log('Tüm işlemler tamamlandı.');
