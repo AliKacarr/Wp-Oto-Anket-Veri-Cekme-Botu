@@ -1,31 +1,32 @@
-0:00:09 Tab1 StartNav5 #renderer-script #link
-0:00:09 Tab1 FinishNav5
-0:00:11 TextSelectionChanged
-0:00:11 TextSelectionChanged
-0:00:11 TextSelectionChanged
-0:00:11 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:12 TextSelectionChanged
-0:00:13 TextSelectionChanged
-0:00:13 TextSelectionChanged
-0:00:13 TextSelectionChanged
-0:00:13 TextSelectionChanged
-0:00:13 TextSelectionChanged
-0:00:13 TextSelectionChanged
-0:00:13 TextSelectionChanged
-0:00:13 TextSelectionChanged
-0:00:13 TextSelectionChanged
-0:00:16 TextSelectionChanged
-0:00:43 Browser1 Close Tab1 at 0
+0:00:16 Tab1 StartNav5 #renderer-user #link
+0:00:16 Tab1 FinishNav5
+0:00:22 TextSelectionChanged
+0:00:22 TextSelectionChanged
+0:00:23 TextSelectionChanged
+0:00:24 TextSelectionChanged
+0:00:24 TextSelectionChanged
+0:00:24 TextSelectionChanged
+0:00:24 TextSelectionChanged
+0:00:24 TextSelectionChanged
+0:00:24 TextSelectionChanged
+0:00:24 TextSelectionChanged
+0:00:24 TextSelectionChanged
+0:00:24 TextSelectionChanged
+0:00:24 TextSelectionChanged
+0:00:25 TextSelectionChanged
+0:00:25 TextSelectionChanged
+0:00:25 TextSelectionChanged
+0:00:25 TextSelectionChanged
+0:00:25 TextSelectionChanged
+0:00:25 TextSelectionChanged
+0:00:25 TextSelectionChanged
+0:00:25 TextSelectionChanged
+0:00:25 TextSelectionChanged
+0:00:26 TextSelectionChanged
+0:00:26 TextSelectionChanged
+0:00:26 TextSelectionChanged
+0:00:26 TextSelectionChanged
+0:00:26 TextSelectionChanged
+0:00:29 TextSelectionChanged
+0:00:54 Widget Closed: TooltipAura
+0:01:05 Browser1 Close Tab1 at 0

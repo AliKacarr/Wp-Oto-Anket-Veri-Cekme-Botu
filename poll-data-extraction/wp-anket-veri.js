@@ -94,7 +94,6 @@ async function processPollResults(pollResults, pollTopic) {
     options.addArguments('--start-maximized');
     options.addArguments('--log-level=3');
     options.addArguments('--new-window');
-    options.addArguments('--headless=new');
     options.addArguments(`--user-data-dir=${path.resolve(profileDir)}`);
     options.addArguments('--disable-application-cache');
     options.addArguments('--disk-cache-size=0');
