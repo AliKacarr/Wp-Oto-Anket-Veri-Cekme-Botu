@@ -11,7 +11,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import sys
 import os
-import json
 from datetime import datetime
 
 def main():
@@ -32,7 +31,7 @@ def main():
     allow_multiple_answers = False  # Birden çok yanıta izin verme
 
     # Chrome profil klasörü oluştur
-    profile_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+    profile_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                               f"chrome-profile-{group_name.lower().replace(' ', '-').replace('ı','i').replace('ğ','g').replace('ü','u').replace('ş','s').replace('ö','o').replace('ç','c')}")
     
     # Chrome profil dizininin varlığını kontrol et, yoksa oluştur
