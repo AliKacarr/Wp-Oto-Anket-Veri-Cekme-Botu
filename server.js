@@ -54,9 +54,8 @@ function anketGonder(groupName) {
 
 async function runJobsSequentially() {
   const gruplar = [
-    { isim: 'Çatı Özel Ders(Çarşamba)', anketVeriCek: true, anketGonder: false },
-    { isim: 'Uhuvvet Eşliğinde Mütalaa', anketVeriCek: true, anketGonder: false },
-    { isim: 'Yazılım', anketVeriCek: false, anketGonder: true }
+    { isim: 'Çatı Özel Ders(Çarşamba)', anketVeriCek: true, anketGonder: true },
+    { isim: 'Uhuvvet Eşliğinde Mütalaa', anketVeriCek: true, anketGonder: false }
   ];
 
   for (const grup of gruplar) {
