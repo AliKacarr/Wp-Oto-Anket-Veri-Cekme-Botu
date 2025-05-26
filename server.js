@@ -89,9 +89,9 @@ async function hatirlatmaMesajiOlustur() {
 
     // Mesajı oluştur
     if (mesajlar.length > 0) {
-      return `${mesajlar.join(', ')} okumalarını yapmadı. Hadi tekrar birlikte okumaya!`;
+      return `${mesajlar.join(', ')} okumalarını yapmadı. Az da olsa devamlı okuyalım!`;
     } else if (herkesOkumus) {
-      return "Harika! Herkes okumalarını yapmış, birlikte ilerlemek çok keyifli! 🎉";
+      return "Harika! Herkes okumalarını yapmış! 🎉";
     }
     return null;
   } catch (error) {
