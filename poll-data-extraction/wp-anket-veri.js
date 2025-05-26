@@ -267,12 +267,6 @@ async function processPollResults(pollResults, pollTopic) {
                 const result = `${optionName}: ${userNames.length ? userNames.join(', ') : ''}`;
                 console.log(result);
 
-                // Sonuçları dosyaya ekle
-                try {
-                    fs.appendFileSync('poll_results.txt', result + '\n');
-                } catch (error) {
-                    console.error('Error writing to file:', error);
-                }
                 // Eğer "Tümünü gör" açıldıysa geri dön
                 try {
                     let backBtn = await panel.findElement(By.xpath('.//div[@role="button" and @aria-label="Geri"]'));
@@ -283,6 +277,18 @@ async function processPollResults(pollResults, pollTopic) {
                 } catch (e) { }
                 i++;
             } catch (e) { i++; }
+        }
+
+        // Sonuçları dosyaya ekle
+        const dateHeader = `\n=== ${pollTopic} ===\n`;
+        try {
+            fs.appendFileSync('poll_results.txt', dateHeader);
+            for (const [optionName, userNames] of Object.entries(pollResults)) {
+                const result = `${optionName}: ${userNames.length ? userNames.join(', ') : ''}`;
+                fs.appendFileSync('poll_results.txt', result + '\n');
+            }
+        } catch (error) {
+            console.error('Error writing to file:', error);
         }
 
         // Anket sonuçlarını veritabanına işle
