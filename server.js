@@ -22,6 +22,16 @@ const readingStatusSchema = new mongoose.Schema({
   status: String
 });
 
+const sentenceSchema = new mongoose.Schema({ sentence: String }, { collection: 'sentences' });
+const hadisSchema = new mongoose.Schema({ sentence: String }, { collection: 'hadisler' });
+const duaSchema = new mongoose.Schema({ sentence: String }, { collection: 'dualar' });
+const ayetSchema = new mongoose.Schema({ sentence: String }, { collection: 'ayetler' });
+
+const Sentence = mongoose.model('Sentence', sentenceSchema);
+const Hadis = mongoose.model('Hadis', hadisSchema);
+const Dua = mongoose.model('Dua', duaSchema);
+const Ayet = mongoose.model('Ayet', ayetSchema);
+
 const User = mongoose.model('User', userSchema);
 const ReadingStatus = mongoose.model('ReadingStatus', readingStatusSchema);
 
@@ -161,7 +171,8 @@ async function gununSozuGetir() {
 async function runJobsSequentially() {
   const gruplar = [
     { isim: 'Çatı Özel Ders(Çarşamba)', anketVeriCek: true, hatirlatma: true, anketGonder: true, gununSozuMesaji: true },
-    { isim: 'Uhuvvet Eşliğinde Mütalaa', anketVeriCek: true, hatirlatma: true, anketGonder: false, gununSozuMesaji: true }
+    { isim: 'Uhuvvet Eşliğinde Mütalaa', anketVeriCek: true, hatirlatma: true, anketGonder: false, gununSozuMesaji: true },
+    { isim: 'Yazılım', anketVeriCek: false, hatirlatma: false, anketGonder: false, gununSozuMesaji: false }
   ];
 
   try {

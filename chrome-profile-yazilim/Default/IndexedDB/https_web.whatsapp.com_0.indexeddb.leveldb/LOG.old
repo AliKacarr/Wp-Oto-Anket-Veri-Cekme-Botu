@@ -1,0 +1,64 @@
+2025/05/26-22:16:19.328 44d4 Reusing MANIFEST C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-yazilim\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/26-22:16:19.329 44d4 Recovering log #277
+2025/05/26-22:16:19.334 44d4 Reusing old log C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-yazilim\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000277.log 
+2025/05/26-22:16:20.620 44d4 Compacting 1@1 + 8@2 files
+2025/05/26-22:16:20.730 44d4 Generated table #281@1: 49159 keys, 2211480 bytes
+2025/05/26-22:16:20.786 44d4 Generated table #282@1: 11663 keys, 2166179 bytes
+2025/05/26-22:16:20.829 44d4 Generated table #283@1: 2688 keys, 2159016 bytes
+2025/05/26-22:16:20.876 44d4 Generated table #284@1: 2815 keys, 2155954 bytes
+2025/05/26-22:16:20.942 44d4 Generated table #285@1: 13358 keys, 2178779 bytes
+2025/05/26-22:16:21.044 44d4 Generated table #286@1: 25857 keys, 2275121 bytes
+2025/05/26-22:16:21.150 44d4 Generated table #287@1: 44212 keys, 2260602 bytes
+2025/05/26-22:16:21.153 44d4 Level-0 table #290: started
+2025/05/26-22:16:21.159 44d4 Level-0 table #290: 110196 bytes OK
+2025/05/26-22:16:21.160 44d4 Delete type=0 #277
+2025/05/26-22:16:21.239 44d4 Generated table #288@1: 52197 keys, 2020233 bytes
+2025/05/26-22:16:21.239 44d4 Compacted 1@1 + 8@2 files => 17427364 bytes
+2025/05/26-22:16:21.240 44d4 compacted to: files[ 1 0 8 0 0 0 0 ]
+2025/05/26-22:16:21.240 231c Manual compaction at level-0 from '\x00.\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00/\x00\x00\x00' @ 0 : 0; will stop at '\x00/\x00\x00\x05' @ 1027380 : 1
+2025/05/26-22:16:21.240 231c Compacting 1@0 + 0@1 files
+2025/05/26-22:16:21.247 231c Generated table #291@0: 3952 keys, 68206 bytes
+2025/05/26-22:16:21.247 231c Compacted 1@0 + 0@1 files => 68206 bytes
+2025/05/26-22:16:21.248 231c compacted to: files[ 0 1 8 0 0 0 0 ]
+2025/05/26-22:16:21.248 231c Delete type=2 #290
+2025/05/26-22:16:21.249 231c Manual compaction at level-0 from '\x00/\x00\x00\x05' @ 1027380 : 1 .. '\x00/\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/26-22:16:21.250 231c Level-0 table #293: started
+2025/05/26-22:16:21.253 231c Level-0 table #293: 248 bytes OK
+2025/05/26-22:16:21.254 231c Delete type=2 #269
+2025/05/26-22:16:21.254 231c Delete type=2 #270
+2025/05/26-22:16:21.254 231c Delete type=2 #271
+2025/05/26-22:16:21.254 231c Delete type=2 #272
+2025/05/26-22:16:21.255 231c Delete type=2 #273
+2025/05/26-22:16:21.255 231c Delete type=2 #274
+2025/05/26-22:16:21.255 231c Delete type=2 #275
+2025/05/26-22:16:21.255 231c Delete type=2 #276
+2025/05/26-22:16:21.255 231c Delete type=2 #279
+2025/05/26-22:16:21.255 231c Delete type=0 #289
+2025/05/26-22:16:21.263 231c Manual compaction at level-0 from '\x00/\x00\x00\x00' @ 72057594037927935 : 1 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at '\x00/\x00\x00\x05' @ 1027413 : 0
+2025/05/26-22:16:21.263 231c Compacting 1@0 + 1@1 files
+2025/05/26-22:16:21.270 231c Generated table #294@0: 3950 keys, 68035 bytes
+2025/05/26-22:16:21.270 231c Compacted 1@0 + 1@1 files => 68035 bytes
+2025/05/26-22:16:21.271 231c compacted to: files[ 0 1 8 0 0 0 0 ]
+2025/05/26-22:16:21.272 231c Delete type=2 #293
+2025/05/26-22:16:21.272 231c Manual compaction at level-0 from '\x00/\x00\x00\x05' @ 1027413 : 0 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/26-22:16:24.353 44d4 Compacting 1@1 + 8@2 files
+2025/05/26-22:16:24.449 44d4 Generated table #295@1: 49139 keys, 2210385 bytes
+2025/05/26-22:16:24.501 44d4 Generated table #296@1: 11802 keys, 2167751 bytes
+2025/05/26-22:16:24.544 44d4 Generated table #297@1: 2689 keys, 2158592 bytes
+2025/05/26-22:16:24.586 44d4 Generated table #298@1: 2821 keys, 2161124 bytes
+2025/05/26-22:16:24.642 44d4 Generated table #299@1: 13358 keys, 2178779 bytes
+2025/05/26-22:16:24.732 44d4 Generated table #300@1: 25857 keys, 2275121 bytes
+2025/05/26-22:16:24.828 44d4 Generated table #301@1: 44212 keys, 2260602 bytes
+2025/05/26-22:16:24.915 44d4 Generated table #302@1: 53814 keys, 2072084 bytes
+2025/05/26-22:16:24.915 44d4 Compacted 1@1 + 8@2 files => 17484438 bytes
+2025/05/26-22:16:24.916 44d4 compacted to: files[ 0 0 8 0 0 0 0 ]
+2025/05/26-22:16:24.916 44d4 Delete type=2 #281
+2025/05/26-22:16:24.917 44d4 Delete type=2 #282
+2025/05/26-22:16:24.917 44d4 Delete type=2 #283
+2025/05/26-22:16:24.917 44d4 Delete type=2 #284
+2025/05/26-22:16:24.917 44d4 Delete type=2 #285
+2025/05/26-22:16:24.917 44d4 Delete type=2 #286
+2025/05/26-22:16:24.917 44d4 Delete type=2 #287
+2025/05/26-22:16:24.917 44d4 Delete type=2 #288
+2025/05/26-22:16:24.917 44d4 Delete type=2 #291
+2025/05/26-22:16:24.917 44d4 Delete type=2 #294
