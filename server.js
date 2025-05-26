@@ -148,10 +148,20 @@ function anketGonder(groupName) {
   });
 }
 
+async function gununSozuGetir() {
+  const collections = [Sentence, Hadis, Dua, Ayet];
+  const randomModel = collections[Math.floor(Math.random() * collections.length)];
+  const count = await randomModel.countDocuments();
+  if (count === 0) return null;
+  const random = Math.floor(Math.random() * count);
+  const doc = await randomModel.findOne().skip(random);
+  return doc ? doc.sentence : null;
+}
+
 async function runJobsSequentially() {
   const gruplar = [
-    { isim: 'Çatı Özel Ders(Çarşamba)', anketVeriCek: true, hatirlatma: true, anketGonder: true },
-    { isim: 'Uhuvvet Eşliğinde Mütalaa', anketVeriCek: true, hatirlatma: true, anketGonder: false }
+    { isim: 'Çatı Özel Ders(Çarşamba)', anketVeriCek: true, hatirlatma: true, anketGonder: true, gununSozuMesaji: true },
+    { isim: 'Uhuvvet Eşliğinde Mütalaa', anketVeriCek: true, hatirlatma: true, anketGonder: false, gununSozuMesaji: true }
   ];
 
   try {
@@ -193,6 +203,24 @@ async function runJobsSequentially() {
           console.error(`${grup.isim} grubu için anket gönderilirken hata oluştu:`, error.message);
         }
       }
+    }
+
+    // 4. Günün sözü mesajını gönder
+    console.log('Günün sözü gönderiliyor...');
+    const gununSozu = await gununSozuGetir();
+    if (gununSozu) {
+      for (const grup of gruplar) {
+        if (grup.gununSozuMesaji) {
+          try {
+            await hatirlatmaMesajiGonder(grup.isim, gununSozu);
+            console.log(`${grup.isim} grubuna günün sözü gönderildi.`);
+          } catch (error) {
+            console.error(`${grup.isim} grubuna günün sözü gönderilemedi:`, error.message);
+          }
+        }
+      }
+    } else {
+      console.log('Günün sözü bulunamadı.');
     }
 
     console.log('Tüm işlemler tamamlandı.');
