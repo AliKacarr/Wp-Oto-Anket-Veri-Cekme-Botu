@@ -122,7 +122,7 @@ def main():
 
         def find_message(driver):
             nonlocal message_found, msg_div
-            messages_container_xpath = '//*[@id="main"]/div[3]/div/div[2]/div[3]'
+            messages_container_xpath = '//*[@id="main"]/div[2]/div/div[2]/div[3]'
             try:
                 messages_container = driver.find_element(By.XPATH, messages_container_xpath)
                 msg_divs = messages_container.find_elements(By.XPATH, './div')

@@ -109,7 +109,7 @@ def main():
 
     # Açılan panelden "Anket" seçeneğine tıkla
     try:
-        poll_li_xpath = '//*[@id="app"]/div/span[6]/div/ul/div/div/div[5]/li[@role="button" and .//span[text()="Anket"]]'
+        poll_li_xpath = '//*[@id="app"]/div/span[6]/div/ul/div/div/div[6]/li[@role="button" and .//span[text()="Anket"]]'
         poll_li = WebDriverWait(driver, 21, poll_frequency=1).until(
             EC.element_to_be_clickable((By.XPATH, poll_li_xpath))
         )
@@ -201,7 +201,7 @@ def main():
         def find_poll_message(driver):
             nonlocal poll_found, poll_msg_div
             print("Mesaj kontrolü döngüsü... ")
-            messages_container_xpath = '//*[@id="main"]/div[3]/div/div[2]/div[3]'
+            messages_container_xpath = '//*[@id="main"]/div[2]/div/div[2]/div[3]'
             try:
                 messages_container = driver.find_element(By.XPATH, messages_container_xpath)
                 msg_divs = messages_container.find_elements(By.XPATH, './div')

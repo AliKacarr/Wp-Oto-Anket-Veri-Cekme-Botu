@@ -1,3 +1,5 @@
-2025/05/27-10:16:23.740 2840 Reusing MANIFEST C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-uhuvvet-esliginde-mutalaa\Default\Local Storage\leveldb/MANIFEST-000001
-2025/05/27-10:16:23.747 2840 Recovering log #4
-2025/05/27-10:16:23.749 2840 Reusing old log C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-uhuvvet-esliginde-mutalaa\Default\Local Storage\leveldb/000004.log 
+2025/05/28-09:40:30.161 2070 Reusing MANIFEST C:\Users\Lenovo\OneDrive\Desktop\Okuma Takip\chrome-profile-uhuvvet-esliginde-mutalaa\Default\Local Storage\leveldb/MANIFEST-000001
+2025/05/28-09:40:30.168 2070 Recovering log #4
+2025/05/28-09:40:30.168 2070 Level-0 table #6: started
+2025/05/28-09:40:30.174 2070 Level-0 table #6: 16480 bytes OK
+2025/05/28-09:40:30.178 2070 Delete type=0 #4
