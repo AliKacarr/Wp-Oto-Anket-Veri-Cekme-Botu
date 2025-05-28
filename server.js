@@ -168,8 +168,8 @@ async function gununSozuGetir() {
 
 async function runJobsSequentially() {
   const gruplar = [
-    { isim: 'Çatı Özel Ders(Çarşamba)', anketVeriCek: false, hatirlatma: false, anketGonder: true, gununSozuMesaji: false },
-    { isim: 'Uhuvvet Eşliğinde Mütalaa', anketVeriCek: false, hatirlatma: false, anketGonder: true, gununSozuMesaji: false },
+    { isim: 'Çatı Özel Ders(Çarşamba)', anketVeriCek: true, hatirlatma: true, anketGonder: true, gununSozuMesaji: true },
+    { isim: 'Uhuvvet Eşliğinde Mütalaa', anketVeriCek: true, hatirlatma: true, anketGonder: true, gununSozuMesaji: true },
     { isim: 'Yazılım', anketVeriCek: false, hatirlatma: false, anketGonder: false, gununSozuMesaji: false }
   ];
 
